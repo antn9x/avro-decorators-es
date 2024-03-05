@@ -27,11 +27,11 @@ export class Fruit {
 
 you need to setup the following
 
-- install `avro-decorators`
+- install `avro-decorators-es`
   ```
-  $ npm install -D avro-decorators
+  $ npm install -D avro-decorators-es
   #   or
-  $ yarn add -D avro-decorators
+  $ yarn add -D avro-decorators-es
   ```
 - create a configuration file `avro-decorators.config.ts` with the following content:
 

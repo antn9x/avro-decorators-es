@@ -1,4 +1,4 @@
-import { Type, Schema as AvscSchema } from 'avsc'
+import avro, { Schema as AvscSchema } from 'avsc'
 import {
   ArraySchemaType,
   ComplexSchemaType,
@@ -11,6 +11,7 @@ import {
   Schema,
   UnionSchemaType,
 } from '../avro.types'
+const { Type } = avro
 
 function isString(schema: Schema): schema is string {
   return typeof schema === 'string'

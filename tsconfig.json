@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
     "target": "ES2020", // you have to target es5+
-    "module": "CommonJS",
+    "module": "ESNext",
     "importHelpers": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "outDir": "./build",
+    "outDir": "./dist",
     "declaration": true,
     "types": ["reflect-metadata", "node", "jest"],
   },

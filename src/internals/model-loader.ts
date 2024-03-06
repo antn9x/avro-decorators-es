@@ -1,12 +1,12 @@
-import { Schema } from '../avro.types'
-import { Config, Constructable, Logger } from '../types'
+import { Schema } from '../avro.types.js'
+import { Config, Constructable, Logger } from '../types.js'
 import * as path from 'path'
 import { promises as fs } from 'fs'
-import { avroSchemaFromClass } from '../schema-builder'
+import { avroSchemaFromClass } from '../schema-builder.js'
 import {
   getSchemaStringName,
   isSchemaValid,
-} from '../internals/avro-helper'
+} from '../internals/avro-helper.js'
 
 export interface LoadedModel {
   valid: boolean

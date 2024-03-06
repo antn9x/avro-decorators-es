@@ -4,9 +4,9 @@ import {
   getModels,
   printSchemas,
   writeSchemas,
-} from '../internals/model-loader'
-import { loadConfig, parseArgs } from '../internals/config-loader'
-import { Logger } from '../types'
+} from '../internals/model-loader.js'
+import { loadConfig, parseArgs } from '../internals/config-loader.js'
+import { Logger } from '../types.js'
 
 export async function runAvroDecorators(
   processArgv: string[],

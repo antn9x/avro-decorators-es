@@ -3,12 +3,12 @@ import {
   BaseFieldDecoratorArgs,
   RecordClassMetadata,
   Prototype,
-} from '../types'
+} from '../types.js'
 import {
   determineFieldMetadataFromProps,
   storeAvroFieldReflectionMetadata,
   storeAvroFieldTypeReflectionMetadata,
-} from '../internals/decorator-utils'
+} from '../internals/decorator-utils.js'
 
 type OfType<T> = OfRecordType<T>
 

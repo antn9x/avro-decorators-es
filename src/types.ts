@@ -1,4 +1,4 @@
-import { AvroOrder, DirectSchemaType, PrimitiveAvroType, PrimitiveSchemaType } from './avro.types'
+import { AvroOrder, DirectSchemaType, PrimitiveAvroType, PrimitiveSchemaType } from './avro.types.js'
 
 export type ClassType = Boolean | Number | String | Constructable<unknown>
 export type OfPrimitiveRefOrRecordType<T = unknown> = PrimitiveAvroType | string | (() => OfRecordType<T>)

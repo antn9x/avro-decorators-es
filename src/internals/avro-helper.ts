@@ -10,7 +10,7 @@ import {
   RecordSchemaType,
   Schema,
   UnionSchemaType,
-} from '../avro.types'
+} from '../avro.types.js'
 const { Type } = avro
 
 function isString(schema: Schema): schema is string {

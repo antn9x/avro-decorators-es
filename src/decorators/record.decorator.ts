@@ -1,4 +1,4 @@
-import { Constructable, RecordMetadata } from '../types'
+import { Constructable, RecordMetadata } from '../types.js'
 
 /**
  * Avro record class decorator to declare an avro record type, which can be

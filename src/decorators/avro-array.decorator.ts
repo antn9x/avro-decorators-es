@@ -3,13 +3,13 @@ import {
   BaseFieldDecoratorArgs,
   InlineTypeDefinition,
   Prototype,
-} from '../types'
+} from '../types.js'
 import {
   determineFieldMetadataFromProps,
   resolveInlineTypeDefinition,
   storeAvroFieldReflectionMetadata,
   storeAvroFieldTypeReflectionMetadata,
-} from '../internals/decorator-utils'
+} from '../internals/decorator-utils.js'
 
 /**
  * Marks a record field as avro array schema.

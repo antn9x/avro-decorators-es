@@ -1,9 +1,9 @@
-import { BaseFieldDecoratorArgs, FixedMetadata, Prototype } from '../types'
+import { BaseFieldDecoratorArgs, FixedMetadata, Prototype } from '../types.js'
 import {
   determineFieldMetadataFromProps,
   storeAvroFieldReflectionMetadata,
   storeAvroFieldTypeReflectionMetadata,
-} from '../internals/decorator-utils'
+} from '../internals/decorator-utils.js'
 
 /**
  * Marks a record field as avro fixed schema.

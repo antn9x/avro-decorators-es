@@ -3,7 +3,7 @@ import {
   FieldMetadata,
   RecordMetadata,
   TypeMetadata,
-} from './types'
+} from './types.js'
 import {
   AvroOrder,
   BasicAvroType,
@@ -14,8 +14,8 @@ import {
   MapSchemaType,
   FixedSchemaType,
   UnionSchemaType,
-} from './avro.types'
-import { AvroDecoratorsError } from './internals/avro-decorators.error'
+} from './avro.types.js'
+import { AvroDecoratorsError } from './internals/avro-decorators.error.js'
 
 interface FieldSchema {
   name: string

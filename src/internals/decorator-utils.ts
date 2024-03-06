@@ -5,8 +5,8 @@ import {
   OfPrimitiveRefOrRecordType,
   Prototype,
   TypeMetadata,
-} from '../types'
-import { isPrimitiveDefinedType } from './avro-helper'
+} from '../types.js'
+import { isPrimitiveDefinedType } from './avro-helper.js'
 
 export function storeAvroFieldReflectionMetadata<
   M extends FieldMetadata<unknown>

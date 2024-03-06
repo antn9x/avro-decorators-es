@@ -1,8 +1,8 @@
 import yargs from 'yargs/yargs'
-import { Config } from '../types'
-import { absolute } from './path-utils'
-import { isAvroDecoratedModel } from './model-loader'
-import { AvroDecoratorsError } from './avro-decorators.error'
+import { Config } from '../types.js'
+import { absolute } from './path-utils.js'
+import { isAvroDecoratedModel } from './model-loader.js'
+import { AvroDecoratorsError } from './avro-decorators.error.js'
 import { Argv } from 'yargs'
 
 const validCommands = ['generate'] as const

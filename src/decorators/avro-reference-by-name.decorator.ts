@@ -2,12 +2,12 @@ import {
   BaseFieldDecoratorArgs,
   Prototype,
   ReferencedTypeMetadata,
-} from '../types'
+} from '../types.js'
 import {
   determineFieldMetadataFromProps,
   storeAvroFieldReflectionMetadata,
   storeAvroFieldTypeReflectionMetadata,
-} from '../internals/decorator-utils'
+} from '../internals/decorator-utils.js'
 
 /**
  * Marks a record field as avro schema referenced by name.
